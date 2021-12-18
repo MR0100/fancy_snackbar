@@ -1,10 +1,9 @@
 # Fancy Snackbar :dart:
 ```
-Fancy Snackbar for notifications, alert messages, information messages, waiting messages, warnings and success messages.
+Fancy Snackbar for notifications, 
+alert messages, information messages,
+waiting messages, warnings and success messages.
 ```
-
-<video src="assets/video/fancy_snackbar.mov" height="600"></video>
-
 
 ## Types
 
