@@ -1,7 +1,7 @@
 name: fancy_snackbar
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/MR0100/fancy_snackbar.git
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
