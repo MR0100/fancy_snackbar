@@ -165,7 +165,7 @@ class _CustomSnackbarState extends State<CustomSnackbar>
         animation: _startAnimation,
         builder: (context, child) {
           return Container(
-            alignment: Alignment(_startAnimation.value ?? 0.0, 0.98),
+            alignment: Alignment(_startAnimation.value ?? 0.0, 0.95),
             child: Material(
               color: Colors.transparent,
               child: Stack(
