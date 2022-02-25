@@ -17,8 +17,8 @@ class FancySnackbar {
 
     /// duration is used to set the duration of snackbar to show on the screen.
     /// it will manage how long the snackbar will be showed in the screen.
-    /// default duration is [3 seconds]
-    double duration = 3,
+    /// default duration is [1 seconds]
+    double duration = 1,
 
     /// if you want to take any actions after closing the snackbar then you can pass the callback.
     VoidCallback? onCloseEvent,
