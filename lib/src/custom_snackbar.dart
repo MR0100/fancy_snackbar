@@ -11,7 +11,7 @@ class CustomSnackbar extends StatefulWidget {
 
   /// duration is used to set the duration of snackbar to show on the screen.
   /// it will manage how long the snackbar will be showed in the screen.
-  /// default duration is [3 seconds]
+  /// default duration is [1 seconds]
   final double duration;
 
   /// if there is the 'title' passed then it will take the default style for it.
