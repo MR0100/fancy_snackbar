@@ -164,12 +164,7 @@ class _CustomSnackbarState extends State<CustomSnackbar>
     return AnimatedBuilder(
         animation: _startAnimation,
         builder: (context, child) {
-          return BackdropFilter(
-            filter: ImageFilter.blur(
-              sigmaX: 2,
-              sigmaY: 2,
-            ),
-            child: Container(
+          return Container(
               alignment: Alignment(_startAnimation.value ?? 0.0, 0.95),
               child: Material(
                 color: Colors.transparent,
@@ -301,8 +296,7 @@ class _CustomSnackbarState extends State<CustomSnackbar>
                   ],
                 ),
               ),
-            ),
-          );
+            );
         });
   }
 }
